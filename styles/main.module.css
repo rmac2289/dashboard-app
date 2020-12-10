@@ -1,0 +1,27 @@
+.box {
+  min-height: 12rem;
+  min-width: 12rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.largeBox {
+  grid-column: 2 / 4;
+  grid-row: 2 / 4;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

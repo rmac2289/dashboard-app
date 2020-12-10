@@ -1,0 +1,36 @@
+.lastBox {
+  grid-column: 2 / 4;
+  grid-row: 4/6;
+  background: rgb(242, 16, 90);
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  padding: 0.5rem 1rem;
+  max-height: 300px;
+  overflow: scroll;
+}
+.date {
+  padding: 0;
+  margin: 0;
+  font-size: 0.75rem;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+.newsItem {
+}
+.title {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size: 1.25rem;
+  font-family: "Roboto Slab", serif;
+}
+.snippet {
+  font-size: 1rem;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+.newsHeader {
+  font-family: "Roboto Slab", serif;
+  color: white;
+  font-size: 2rem;
+  margin-top: 0.5rem;
+}

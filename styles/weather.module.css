@@ -1,0 +1,25 @@
+.box {
+  min-height: 12rem;
+  min-width: 12rem;
+  padding: 1rem;
+  border-radius: 10px;
+  background: white;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-bottom: 0.75rem;
+  color: rgb(242, 16, 90);
+  font-family: "Roboto Slab", serif;
+}
+.p {
+  line-height: 2.25rem;
+  font-size: 1.5rem;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+.u {
+  color: rgb(65, 84, 179);
+}

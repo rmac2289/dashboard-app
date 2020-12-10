@@ -1,0 +1,34 @@
+html,
+body {
+  background: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+.MuiInputBase-input {
+  color: white !important;
+}
+.MuiInput-underline {
+  border-bottom: 1px solid white;
+}
+.MuiSvgIcon-root {
+  transition: all 1s linear !important;
+}
+.MuiSvgIcon-root:hover {
+  color: white;
+  transform: rotate(180deg);
+}
+.MuiIconButton-colorPrimary {
+  color: white !important;
+  transition: 0.25s all linear !important;
+}
+.MuiIconButton-colorPrimary:hover {
+  transform: scale(1.1);
+}
+a {
+  color: white;
+}
+img {
+  border-radius: 10px;
+}

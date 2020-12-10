@@ -1,0 +1,45 @@
+.box {
+  min-height: 12rem;
+  min-width: 12rem;
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  overflow: scroll;
+  grid-row: 3/6;
+  background: none;
+  border: 1px solid white;
+}
+.taskDiv {
+  margin: 0.5rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 25px;
+  border-radius: 10px;
+}
+
+.todoHeader {
+  margin-bottom: 0.25rem;
+  margin-top: 0;
+  color: rgb(242, 16, 90);
+}
+.top {
+  margin-left: 0.5rem;
+  margin-bottom: 1.25rem;
+  font-family: "Roboto Slab", serif;
+}
+.todoText {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25rem;
+}
+.removeButton {
+  height: 20px;
+}
+.addTodo {
+  display: flex;
+}
+.checkBox {
+  display: flex;
+  align-items: center;
+}

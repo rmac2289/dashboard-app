@@ -1,0 +1,38 @@
+.longBox {
+  grid-column: 1 / 4;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  border-radius: 10px;
+  font-family: "Roboto Slab", serif;
+}
+.topContainer {
+  text-align: center;
+  background: rgb(65, 84, 179);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.imageContainer {
+  margin-left: 10px;
+  background: url("../public/wedding.jpg");
+  background-size: cover;
+  border-radius: 10px;
+}
+.topTextH1 {
+  padding: 1rem;
+  padding-bottom: 0.25rem;
+  border-radius: 10px;
+  margin: 0;
+  font-size: 5rem;
+  color: white;
+}
+.topTextH2 {
+  padding: 1rem;
+  padding-top: 0.25rem;
+  color: white;
+  border-radius: 10px;
+  margin: 0;
+  font-size: 2.5rem;
+}
